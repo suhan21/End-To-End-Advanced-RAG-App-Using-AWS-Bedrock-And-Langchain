@@ -64,17 +64,13 @@ Backend	Python + Boto3 (AWS SDK)
 
 
 📎 How It Works
+•  Upload PDFs into the /data/ directory.
+•  Click "Vectors Update" in the sidebar to generate and store embeddings using Titan.
+•  Ask any question in the input box.
+•  Choose either Claude Output or LLaMA2 Output to get results.
+•  Internally, LangChain handles retrieval + generation using FAISS and LLMs.
 
-    Upload PDFs into the /data/ directory.
-
-    Click "Vectors Update" in the sidebar to generate and store embeddings using Titan.
-
-    Ask any question in the input box.
-
-    Choose either Claude Output or LLaMA2 Output to get results.
-
-    Internally, LangChain handles retrieval + generation using FAISS and LLMs.
-
+    
 🖼 Bonus: Image Generation
 
 Use stablediffusion.py to generate high-quality 4K images from prompts using Stable Diffusion XL on Bedrock.
