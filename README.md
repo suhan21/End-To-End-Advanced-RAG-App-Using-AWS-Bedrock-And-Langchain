@@ -44,22 +44,24 @@ Backend	Python + Boto3 (AWS SDK)
 
 🛠 Installation & Setup
 
-    Clone the repository
+1.Clone the repository
 
-git clone https://github.com/suhan21/advanced-rag-bedrock-langchain.git
-cd advanced-rag-bedrock-langchain
+    git clone https://github.com/suhan21/advanced-rag-bedrock-langchain.git
+    cd advanced-rag-bedrock-langchain
 
-    Install dependencies
+2.Install dependencies
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
-    Configure AWS CLI
+3.Configure AWS CLI
 
-aws configure
+    aws configure
 
-    Run the app
+4.Run the app
 
-streamlit run app.py
+    streamlit run app.py
+
+
 
 📎 How It Works
 
